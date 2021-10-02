@@ -1,5 +1,5 @@
 # Personal Photoghraphy App
-----
+--
 ## Built With 
 - Next.js / React
 - Pure React Carousel
