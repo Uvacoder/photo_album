@@ -179,7 +179,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params: { albumCollection, albumName } }) {
     const { resources: albumImages } = await getPhotoAlbum(albumCollection, albumName) 
     // console.log(`albumImages.length: `, albumImages.length)
-    const baseImageUrl = 'http://res.cloudinary.com/uvacoder/image/upload'
+    const baseImageUrl = 'http://res.cloudinary.com/iarenotamnot/image/upload'
     const albumImagesSerialized = albumImages
         .filter(image => {
             const context = image?.context
